@@ -1,0 +1,18 @@
+# Site navigation links
+
+- title: About
+  url: /about
+
+- title: Events
+  url: /events
+
+- title: Blog
+  url: https://blog.kossiitkgp.in/
+  redirect: true
+
+- title: Engineering Blog
+  url: https://medium.com/koss-engineering
+  redirect: true
+
+- title: Team
+  url: /team
