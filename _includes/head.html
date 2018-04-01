@@ -1,0 +1,9 @@
+<meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} &#8211 {% endif %}{{site.title}}</title>
+{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+{% if page.tags %}<meta name="keywords" content="{{ page.tabs | join: ", " }}">{% endif %}
+<meta http-equiv="cleartype" content="on">
+
+<meta name="HandledFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
