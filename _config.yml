@@ -1,0 +1,32 @@
+# Site wide configuration
+title: Kharagpur Open Source Society
+locale: en_US
+description: We promote culture of open source software and help people
+logo: koss-logo.png
+search: true
+
+# Jekyll Configuration
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: true
+
+include: [".htaccess"]
+exclude: [".gitignore"]
+
+# Site Owner
+owner:
+  name: Kharagpur Open Source Society
+  email: contact@kossiitkgp.in
+  twitter: kossiitkgp
+  facebook: kossiitkgp
+  github: kossiitkgp
+  google:
+    analytics:
+
+
