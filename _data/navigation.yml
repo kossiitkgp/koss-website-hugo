@@ -8,11 +8,9 @@
 
 - title: Blog
   url: https://blog.kossiitkgp.in/
-  redirect: true
 
 - title: Engineering Blog
   url: https://medium.com/koss-engineering
-  redirect: true
 
 - title: Team
   url: /team
