@@ -10,3 +10,16 @@
 
 <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+
+<!-- open graph tags -->
+<meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+<meta content="{{ page.layout }}" property="og:type">
+<meta content="{{ site.logo }}" property="og:image">
+<meta content="{{ site.description }}" property="og:description">
+<meta content="{{ page.url }}" property="og:url">  
