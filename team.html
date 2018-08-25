@@ -1,3 +1,84 @@
 ---
 layout: page
 ---
+<!-- CSS Starts-->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.orgchart.css">
+
+<style type="text/css">
+
+  html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+  }
+
+  #chart-container {
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    left: 10px;
+    height: 100vh;
+    width: calc(100% - 24px);
+    border: 2px dashed #aaa;
+    border-radius: 5px;
+    overflow: auto;
+    text-align: left;
+  }
+</style>
+
+
+<!-- CSS Ends -->
+<!-- Body Starts -->
+
+<h1>1:1s</h1>
+
+<div id="chart-container"></div>
+
+<!-- Body Ends -->
+<!-- JS Starts -->
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.orgchart.js"></script>
+
+
+<script type="text/javascript">
+
+  function addChildren(membersList, childrenList) {
+    for (var member of membersList) {
+      var toPush = {}
+      toPush.name = member.name
+      toPush.batch = member.batch
+      if ('directs' in member) {
+        toPush.children = []
+        addChildren(member.directs, toPush.children)
+      }
+      childrenList.push(toPush)
+    }
+  }
+
+  var dataTree = {{ site.data.one_on_ones | jsonify}}
+
+  var dataSource = {
+    'name': 'KOSS 1:1s',
+    'children': []
+  }
+
+  addChildren(dataTree, dataSource.children)
+
+  $('#chart-container').orgchart({
+    'data' : dataSource,
+    'nodeContent': 'batch',
+    'direction': 'l2r'
+  });
+
+</script>
+<!-- JS Ends -->
