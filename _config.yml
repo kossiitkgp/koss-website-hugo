@@ -1,8 +1,8 @@
 # Site wide configuration
 title: Kharagpur Open Source Society
 locale: en_US
-description: We promote culture of open source software and help people
-logo: koss-logo.png
+description: We promote culture of open source software and help students
+logo: assets/images/koss-logo.png
 search: true
 
 # Jekyll Configuration
