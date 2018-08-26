@@ -77,18 +77,16 @@
     - name: Pratik Tibrewal
       batch: EC'20
       directs:
-        - name: Praagy Rastogi
-          batch: CS'22
         - name: Shruti Shevya
           batch: MA'22
+        - name: Ritik Kumar
+          batch: CS'21
 - name: Ayush Goyal
   batch: AG'19
   directs:
     - name: Apoorva Kumar
       batch: CS'20
       directs:
-        - name: Ritik Kumar
-          batch: CS'21
         - name: Gaurav Goyal
           batch: CS'22
         - name: Shivam Kumar Jha
