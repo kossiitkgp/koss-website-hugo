@@ -81,6 +81,20 @@
     
     <url>
     
+      <loc>/docs/community/governance/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/docs/community/onboarding-offboarding/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/docs/events/</loc>
     </url>
     
@@ -115,7 +129,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2018-10-05T00:00:00+05:30</lastmod>
+      <lastmod>2019-02-16T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
     
