@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Kharagpur Open Source Society</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Kharagpur Open Source Society</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Oct 2018 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Git Bash for git in Windows</title>
+      <link>/blog/posts/git-bash-in-windows/</link>
+      <pubDate>Fri, 05 Oct 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/blog/posts/git-bash-in-windows/</guid>
+      <description>Using Git Bash for git in Windows This blog post helps in installing git bash, for using git in windows. Git for Windows provides a BASH emulation used to run Git from the command line. *NIX users should feel right at home, as the BASH emulation behaves just like the “git” command in LINUX and UNIX environments.
+Steps to install Git for Windows  Click on the link to [download].</description>
+    </item>
+    
+    <item>
+      <title>Installing Python in Windows</title>
+      <link>/blog/posts/installing-python-in-windows/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/blog/posts/installing-python-in-windows/</guid>
+      <description>Installing Python in Windows This article deals with installing Python on Windows. Even though Python can be installed in Windows, it is recommended to use Linux, to use Python and develop applications. While I have used windows 10 for the demonstration of installation, this can also be referred for installing the same in Windows 7.I have installed both Python2 and Python3.
+Let’s begin!
+Download the Python Software Download the required files from the Python’s website [Python2 | Python3].</description>
+    </item>
+    
+    <item>
+      <title>Git Cheatsheet</title>
+      <link>/blog/posts/git-cheatsheet/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/blog/posts/git-cheatsheet/</guid>
+      <description>Git Cheatsheet What is Git? From Git’s official website:
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+About Version Control
+What is version control, and why should you care? Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.</description>
+    </item>
+    
+    <item>
+      <title>Learning command line basics and Virtual box</title>
+      <link>/blog/posts/virtual-box-and-vagrant/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/blog/posts/virtual-box-and-vagrant/</guid>
+      <description>Learning command line basics and Virtual box Hello people!
+So I was looking up for a course that would teach me the basics of linux command line and I got across this one. Though I already know the basics of command line but just in case I was missing something, I thought to go through it once.
+https://in.udacity.com/course/linux-command-line-basics--ud595
+This course is for a beginner. It’s not preferred to go through it, if you already know about the commands.</description>
+    </item>
+    
+    <item>
+      <title>An informal introduction to KWoC</title>
+      <link>/blog/posts/informal-introduction-to-kwoc/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/blog/posts/informal-introduction-to-kwoc/</guid>
+      <description>An informal introduction to KWoC Great People of tomorrow, every perfume starts with one ingredient but it is the last one that makes it come to life.
+Hi! and Welcome! To all esteemed student who are trying to pursue their dreams irrespective of their departments and previous experience.
+Everyone is welcome. Here “Everyone” is not a metaphor, “Everyone” means everyone.
+Open source is not just “GSoC”. It is a lot about, idea, ego, altruism, expression and satisfaction.</description>
+    </item>
+    
+    <item>
+      <title>Writing Kickass READMEs</title>
+      <link>/blog/posts/writing-kickass-readmes/</link>
+      <pubDate>Tue, 14 Mar 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/blog/posts/writing-kickass-readmes/</guid>
+      <description>Writing Kickass READMEs Writing documentation for code is extremely important. Alas! I realized this late. Nevertheless, you should not make this mistake again.
+This is written with respect to software related READMEs, if you want guidelines for other stuff, then probably this isn’t the right place.
+Let’s discuss the potential problems of not having a good README:
+Not a clear description of the project I don’t recount how many times this has happened with me.</description>
+    </item>
+    
+    <item>
+      <title>Breaking GitHub Down</title>
+      <link>/blog/posts/breaking-github-down/</link>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/blog/posts/breaking-github-down/</guid>
+      <description>Breaking GitHub Down During my mid semester exams, one night I was getting bored so I decided to check how to break the most used code hosting website GitHub. I wrote a script[1] to add infinite commits to a repository named “Commiter”[2]. It added a dot at the end of a text file after every commit. The script pushed to the master branch after every 10,000 commits and then after 1,00,000 commits it deleted the repository and then cloned it back with just the last commit.</description>
+    </item>
+    
+  </channel>
+</rss>

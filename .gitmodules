@@ -1,0 +1,12 @@
+[submodule "content/blog"]
+	path = content/blog
+	url = https://github.com/kossiitkgp/blog.git
+[submodule "content/docs"]
+	path = content/docs
+	url = https://github.com/kossiitkgp/docs.git
+[submodule "themes/koss-hugo-theme"]
+	path = themes/koss-hugo-theme
+	url = https://github.com/kossiitkgp/koss-hugo-theme.git
+[submodule "themes/academic"]
+	path = themes/academic
+	url = https://github.com/gcushen/hugo-academic.git

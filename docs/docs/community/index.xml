@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kharagpur Open Source Society</title>
+    <link>/docs/community/</link>
+    <description>Recent content on Kharagpur Open Source Society</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/docs/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/docs/community/governance-review-week/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/community/governance-review-week/</guid>
+      <description>Governance Review Week What is it? It is a week dedicated to the Governance of KOSS.
+Our intention behind organizing the Governance Review Week is to help the core team members measure their level of involvement in KOSS. The week also promotes open discussions between Seniors and the Core team members. We want each one of our members to be frank with their batchmates as well as seniors in sharing their opinions and perspective on every aspect of KOSS.</description>
+    </item>
+    
+  </channel>
+</rss>

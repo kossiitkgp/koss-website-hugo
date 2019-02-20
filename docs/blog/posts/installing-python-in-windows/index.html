@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Installing Python in Windows This article deals with installing Python on Windows. Even though Python can be installed in Windows, it is recommended to use Linux, to use Python and develop applications. While I have used windows 10 for the demonstration of installation, this can also be referred for installing the same in Windows 7.I have installed both Python2 and Python3.
+Let’s begin!
+Download the Python Software Download the required files from the Python’s website [Python2 | Python3].">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/blog/posts/installing-python-in-windows/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Kharagpur Open Source Society">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Kharagpur Open Source Society">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/blog/posts/installing-python-in-windows/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@kossiitkgp">
+  <meta property="twitter:creator" content="@kossiitkgp">
+  
+  <meta property="og:site_name" content="Kharagpur Open Source Society">
+  <meta property="og:url" content="/blog/posts/installing-python-in-windows/">
+  <meta property="og:title" content="Installing Python in Windows | Kharagpur Open Source Society">
+  <meta property="og:description" content="Installing Python in Windows This article deals with installing Python on Windows. Even though Python can be installed in Windows, it is recommended to use Linux, to use Python and develop applications. While I have used windows 10 for the demonstration of installation, this can also be referred for installing the same in Windows 7.I have installed both Python2 and Python3.
+Let’s begin!
+Download the Python Software Download the required files from the Python’s website [Python2 | Python3]."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-08-30T00:00:00&#43;05:30">
+  
+  <meta property="article:modified_time" content="2018-08-30T00:00:00&#43;05:30">
+  
+
+  
+
+  
+
+  <title>Installing Python in Windows | Kharagpur Open Source Society</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Kharagpur Open Source Society</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/docs/about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/docs/events">
+            
+            <span>Events</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Installing Python in Windows</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2018-08-30 00:00:00 &#43;0530 IST" itemprop="datePublished">
+<meta content="2018-08-30 00:00:00 &#43;0530 IST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Aug 30, 2018</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="/categories/engineering/">Engineering</a>
+    
+  </span>
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Installing%20Python%20in%20Windows&amp;url=%2fblog%2fposts%2finstalling-python-in-windows%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fblog%2fposts%2finstalling-python-in-windows%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fblog%2fposts%2finstalling-python-in-windows%2f&amp;title=Installing%20Python%20in%20Windows"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fblog%2fposts%2finstalling-python-in-windows%2f&amp;title=Installing%20Python%20in%20Windows"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Installing%20Python%20in%20Windows&amp;body=%2fblog%2fposts%2finstalling-python-in-windows%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="installing-python-in-windows">Installing Python in Windows</h1>
+
+<p>This article deals with installing Python on Windows. Even though Python can be
+installed in Windows, it is recommended to use Linux, to use Python and develop
+applications. While I have used windows 10 for the demonstration of
+installation, this can also be referred for installing the same in Windows 7.I
+have installed both Python2 and Python3.</p>
+
+<p>Let’s begin!</p>
+
+<h3 id="download-the-python-software">Download the Python Software</h3>
+
+<p>Download the required files from the Python’s website
+[<a href="https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi" target="_blank">Python2</a> |
+<a href="https://www.python.org/downloads/release/python-370/" target="_blank">Python3</a>].</p>
+
+<h3 id="installing-python-2">Installing Python 2</h3>
+
+<p>I have used the following steps to install Python 2</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*UOiYWaNMJTgLIlIayw-OJQ.jpeg" alt="" />
+<span class="figcaption_hack">Choose Install for all users</span></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*en8i8Wf80eINFhv5n6Q1EQ.jpeg" alt="" />
+<span class="figcaption_hack">Keep the folder where Python will be installed in C drive</span></p>
+
+<p><span class="figcaption_hack">Keep the default options, and click Next</span></p>
+
+<p><span class="figcaption_hack">Python will be installed</span></p>
+
+<h3 id="installing-python-3">Installing Python 3</h3>
+
+<p>After installing Python 2, we will install Python 3. Note that if you want to
+install only Python 2( which is not recommended), then you have to append the
+<code>python.exe</code> in the PATH variable.</p>
+
+<p><span class="figcaption_hack">Choose Add Python3.7 to PATH</span></p>
+
+<p><span class="figcaption_hack">Python will be installed</span></p>
+
+<p><span class="figcaption_hack">Python is installed.</span></p>
+
+<h3 id="running-python-2-and-python-3">Running Python 2 and Python 3</h3>
+
+<p>You can start Python 2, using <code>py -2</code> command in your command terminal. For
+Python 3 use, <code>py -3</code>.</p>
+
+<p><span class="figcaption_hack">Python 2 and Python 3 is up and running !</span></p>
+
+<hr />
+
+<h3 id="caveat-differences-between-py2-and-py3">Caveat! Differences between Py2 and Py3</h3>
+
+<p>Note: This part is just for beginners who would be installing python for the
+very first time. Of course, there are many more differences between the two
+version.</p>
+
+<ul>
+<li><strong>print</strong> : In python 2, the print was a statement, and hence one could print
+any item, and wrapping them in curly brackets , was optional. However, due the
+misuse of the above flexibility, the print statement was changed into a
+function, and thus restricting the misuse of the above said advantage.</li>
+<li>**Integer division **: The integer division in python2 takes two numbers, and
+returns the integer portion, as it discards the decimal part. This was certainly
+not obvious, as <code>3/2</code> should return <code>1.5</code> and not <code>1</code>. Python 3 ensured that the
+integer division returns values in float, rather than int.</li>
+
+<li><p><strong>Speed</strong> : Python 3.3 performs at approximately the same speed as Python 2.7,
+although some benchmarks measure the new language as being much faster.</p></li>
+
+<li><p>This article is written by <a href="https://github.com/yashrsharma44" target="_blank">Yash Sharma</a>*</p></li>
+</ul>
+
+    </div>
+
+    
+
+
+    
+      
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.07fbebbbf71b021c8836e1d7ecffa489.js"></script>
+
+  </body>
+</html>
+

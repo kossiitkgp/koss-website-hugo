@@ -1,0 +1,60 @@
+{{ $headers := findRE "<h[1-3].*?>(.|\n])+?</h[1-3]>" .Content }}
+{{ $has_headers := ge (len $headers) 1 }}
+{{ if $has_headers }}
+<nav id="toc" data-toggle="toc">
+  <h4 class="text-muted">Contents</h4>
+  <ul class="nav">
+    {{ range $i, $header := $headers }}
+      {{ $header_level := index (findRE "[1-3]" . 1) 0 }}
+      {{ $header_level := len (seq $header_level) }}
+
+      {{ $hash := index (findRE "id=.([^\"]+)." $header 1) 0 }}
+      {{ $hash := replace $hash "id=\"" "" }}
+      {{ $hash := replace $hash "\"" "" }}
+
+      {{ if ne $i 0 }}
+        {{ $previous_level := index (findRE "[1-3]" (index $headers (sub $i 1)) 1) 0 }}
+        {{ $previous_level := len (seq $previous_level) }}
+
+        {{ if gt $header_level $previous_level }}
+          {{ range seq (sub $header_level $previous_level) }}
+          <ul class="nav">
+          {{ end }}
+        {{ end }}
+
+        {{ if lt $header_level $previous_level }}
+          {{ range seq (sub $previous_level $header_level) }}
+          </li></ul></li>
+          {{ end }}
+        {{ end }}
+
+        {{ if eq $header_level $previous_level }}
+          </li>
+        {{ end }}
+
+        <li>
+          <a href="#{{ $hash }}">{{ $header | plainify | safeHTML }}</a>
+
+        {{ if eq $i (sub (len $headers) 1) }}
+          {{ range seq (sub $previous_level $header_level) }}
+          </li></ul></li>
+          {{ end }}
+        {{ end }}
+
+      {{ else }}
+
+      <li>
+        <a href="#{{ $hash }}">{{ $header | plainify | safeHTML }}</a>
+
+      {{end}}
+    {{end}}
+
+    {{ $first_level := len (seq (index (findRE "[1-3]" (index $headers 0) 1) 0)) }}
+    {{ $last_level := len (seq (index (findRE "[1-3]" (index $headers (sub (len $headers) 1)) 1) 0)) }}
+    {{ range seq (sub $last_level $first_level) }}
+      </li></ul></li>
+    {{end}}
+
+  </ul>
+</nav>
+{{end}}
