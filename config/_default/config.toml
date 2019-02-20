@@ -50,6 +50,9 @@ preserveTaxonomyNames = true
   home = [ "HTML", "CSS", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
 
+[permalinks]
+  blog = "/blog/:slug"
+
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
