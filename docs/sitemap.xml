@@ -4,7 +4,7 @@
     
     <url>
     
-      <loc>/blog/posts/git-bash-in-windows/</loc>
+      <loc>/blog/git-bash-in-windows/</loc>
       <lastmod>2018-10-05T00:00:00+05:30</lastmod>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
     
-      <loc>/blog/posts/installing-python-in-windows/</loc>
+      <loc>/blog/installing-python-in-windows/</loc>
       <lastmod>2018-08-30T00:00:00+05:30</lastmod>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
     
-      <loc>/blog/posts/git-cheatsheet/</loc>
+      <loc>/blog/git-cheatsheet/</loc>
       <lastmod>2018-06-21T00:00:00+05:30</lastmod>
     </url>
     
@@ -28,7 +28,7 @@
     
     <url>
     
-      <loc>/blog/posts/virtual-box-and-vagrant/</loc>
+      <loc>/blog/virtual-box-and-vagrant/</loc>
       <lastmod>2018-06-05T00:00:00+05:30</lastmod>
     </url>
     
@@ -36,7 +36,7 @@
     
     <url>
     
-      <loc>/blog/posts/informal-introduction-to-kwoc/</loc>
+      <loc>/blog/informal-introduction-to-kwoc/</loc>
       <lastmod>2017-11-14T00:00:00+05:30</lastmod>
     </url>
     
@@ -44,7 +44,7 @@
     
     <url>
     
-      <loc>/blog/posts/writing-kickass-readmes/</loc>
+      <loc>/blog/writing-kickass-readmes/</loc>
       <lastmod>2017-03-14T00:00:00+05:30</lastmod>
     </url>
     
@@ -52,7 +52,7 @@
     
     <url>
     
-      <loc>/blog/posts/breaking-github-down/</loc>
+      <loc>/blog/breaking-github-down/</loc>
       <lastmod>2017-03-02T00:00:00+05:30</lastmod>
     </url>
     
@@ -104,7 +104,6 @@
     
       <loc>/blog/</loc>
       <lastmod>2018-10-05T00:00:00+05:30</lastmod>
-      <priority>0</priority>
     </url>
     
   

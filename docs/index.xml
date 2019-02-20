@@ -11,10 +11,10 @@
     
     <item>
       <title>Using Git Bash for git in Windows</title>
-      <link>/blog/posts/git-bash-in-windows/</link>
+      <link>/blog/git-bash-in-windows/</link>
       <pubDate>Fri, 05 Oct 2018 00:00:00 +0530</pubDate>
       
-      <guid>/blog/posts/git-bash-in-windows/</guid>
+      <guid>/blog/git-bash-in-windows/</guid>
       <description>
 
 &lt;h1 id=&#34;using-git-bash-for-git-in-windows&#34;&gt;Using Git Bash for git in Windows&lt;/h1&gt;
@@ -88,10 +88,10 @@ start learning git.&lt;/p&gt;
     
     <item>
       <title>Installing Python in Windows</title>
-      <link>/blog/posts/installing-python-in-windows/</link>
+      <link>/blog/installing-python-in-windows/</link>
       <pubDate>Thu, 30 Aug 2018 00:00:00 +0530</pubDate>
       
-      <guid>/blog/posts/installing-python-in-windows/</guid>
+      <guid>/blog/installing-python-in-windows/</guid>
       <description>
 
 &lt;h1 id=&#34;installing-python-in-windows&#34;&gt;Installing Python in Windows&lt;/h1&gt;
@@ -171,10 +171,10 @@ although some benchmarks measure the new language as being much faster.&lt;/p&gt
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>/blog/posts/git-cheatsheet/</link>
+      <link>/blog/git-cheatsheet/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0530</pubDate>
       
-      <guid>/blog/posts/git-cheatsheet/</guid>
+      <guid>/blog/git-cheatsheet/</guid>
       <description>
 
 &lt;h1 id=&#34;git-cheatsheet&#34;&gt;Git Cheatsheet&lt;/h1&gt;
@@ -406,10 +406,10 @@ apply stash@{n}&lt;/code&gt; where n is the stash number.&lt;/li&gt;
     
     <item>
       <title>Learning command line basics and Virtual box</title>
-      <link>/blog/posts/virtual-box-and-vagrant/</link>
+      <link>/blog/virtual-box-and-vagrant/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0530</pubDate>
       
-      <guid>/blog/posts/virtual-box-and-vagrant/</guid>
+      <guid>/blog/virtual-box-and-vagrant/</guid>
       <description>
 
 &lt;h1 id=&#34;learning-command-line-basics-and-virtual-box&#34;&gt;Learning command line basics and Virtual box&lt;/h1&gt;
@@ -490,10 +490,10 @@ command line.&lt;/p&gt;
     
     <item>
       <title>An informal introduction to KWoC</title>
-      <link>/blog/posts/informal-introduction-to-kwoc/</link>
+      <link>/blog/informal-introduction-to-kwoc/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0530</pubDate>
       
-      <guid>/blog/posts/informal-introduction-to-kwoc/</guid>
+      <guid>/blog/informal-introduction-to-kwoc/</guid>
       <description>
 
 &lt;h1 id=&#34;an-informal-introduction-to-kwoc-http-kwoc-kossiitkgp-org&#34;&gt;An informal introduction to &lt;a href=&#34;http://kwoc.kossiitkgp.org/&#34; target=&#34;_blank&#34;&gt;KWoC&lt;/a&gt;&lt;/h1&gt;
@@ -778,10 +778,10 @@ bulletproof”&lt;/strong&gt;&lt;/p&gt;
     
     <item>
       <title>Writing Kickass READMEs</title>
-      <link>/blog/posts/writing-kickass-readmes/</link>
+      <link>/blog/writing-kickass-readmes/</link>
       <pubDate>Tue, 14 Mar 2017 00:00:00 +0530</pubDate>
       
-      <guid>/blog/posts/writing-kickass-readmes/</guid>
+      <guid>/blog/writing-kickass-readmes/</guid>
       <description>
 
 &lt;h1 id=&#34;writing-kickass-readmes&#34;&gt;Writing Kickass READMEs&lt;/h1&gt;
@@ -971,10 +971,10 @@ appeared in Pranit Bauva’s &lt;a href=&#34;http://www.bauva.com/&#34; target=&
     
     <item>
       <title>Breaking GitHub Down</title>
-      <link>/blog/posts/breaking-github-down/</link>
+      <link>/blog/breaking-github-down/</link>
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0530</pubDate>
       
-      <guid>/blog/posts/breaking-github-down/</guid>
+      <guid>/blog/breaking-github-down/</guid>
       <description>
 
 &lt;h1 id=&#34;breaking-github-down&#34;&gt;Breaking GitHub Down&lt;/h1&gt;
