@@ -6,8 +6,6 @@
       directs:
         - name: Pankhuri Saxena
           batch: HS'22
-        - name: Sanket Kumar Singh
-          batch: EE'22
     - name: Sangeet Kumar Mishra
       batch: CE'20
       directs:
@@ -41,16 +39,9 @@
   directs:
     - name: Ankita Sahoo
       batch: EC'20
-      directs:
-        - name: Shreyas Kowshik
-          batch: MA'22
-        - name: Kousshik Raj
-          batch: CS'22
     - name: Dibya Prakash Das
       batch: MA'21
       directs:
-        - name: Gurjot Singh Suri
-          batch: CS'21
         - name: Aditya Vikram Singh
           batch: PH'22
 - name: Parth Verma
@@ -61,8 +52,6 @@
       directs:
         - name: Nikhil Choudhary
           batch: HS'22
-        - name: Vedprakash
-          batch: ME'22
 - name: Pranit Bauva
   batch: MI'20
   directs:
@@ -71,16 +60,12 @@
       directs:
         - name: Aaryan Bhagat
           batch: CS'21
-        - name: Mansi Sinha
-          batch: MA'22
 - name: Rishabh Madan
   batch: NA'19
   directs:
     - name: Pratik Tibrewal
       batch: EC'20
       directs:
-        - name: Shruti Shevya
-          batch: MA'22
         - name: Ritik Kumar
           batch: CS'21
 - name: Ayush Goyal
