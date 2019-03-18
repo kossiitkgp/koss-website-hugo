@@ -3,24 +3,6 @@
   
     <url>
     
-      <loc>/home/hero/</loc>
-      <lastmod>2019-02-20T22:56:19+05:30</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/home/koss/</loc>
-      <lastmod>2019-02-20T22:56:19+05:30</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/home/community/</loc>
-      <lastmod>2019-02-20T22:56:19+05:30</lastmod>
-    </url>
-  
-    <url>
-    
       <loc>/blog/git-bash-in-windows/</loc>
       <lastmod>2018-10-05T00:00:00+05:30</lastmod>
     </url>
@@ -132,15 +114,8 @@
   
     <url>
     
-      <loc>/home/</loc>
-      <lastmod>2019-02-20T22:56:19+05:30</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/</loc>
-      <lastmod>2019-02-20T22:56:19+05:30</lastmod>
+      <lastmod>2018-10-05T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
   

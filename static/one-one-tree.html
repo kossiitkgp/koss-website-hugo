@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+  <title>KOSS | 1:1 Tree</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    body, html {
+        width: 100%;
+        height: 100%;
+    }
+    #mynetwork {
+      width: 100%;
+      height: 100%;
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+<body>
+
+<div id="mynetwork"></div>
+<!-- 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/yamljs/0.3.0/yaml.min.js"></script> -->
+
+<script type="text/javascript">
+
+    // nativeObject = YAML.load('one-one.yml');
+    // console.log(nativeObject);
+
+    // create an array with nodes
+    var nodes = new vis.DataSet([
+        {id: 1, label: 'Dibya Prakash Das'},
+            {id: 2, label: 'Piyush Ranjan'},
+                {id: 3, label: 'Shubham Mishra'},
+
+        {id: 4, label: 'Pranit Bauva'},
+            {id: 5, label: 'Gaurav Goyal'},
+                {id: 6, label: 'Aman Verma'},
+    
+        {id: 7, label: 'Sangeet Kumar Mishra'},
+            {id: 8, label: 'Ayush Kaushal'},
+                {id: 9, label: 'Debajyoti Dasgupta'},
+
+        {id: 10, label: 'Pratik Tibrewal'},
+            {id: 11, label: 'Yash Sharma'},
+                {id: 12, label: 'Mukul Mehta'},
+
+        {id: 13, label: 'Apoorva Kumar'},
+            {id: 14, label: 'Arnav Tiwari'},
+            {id: 15, label: 'Anushka Shukla'},
+                {id: 16, label: 'Priyanshu Kumar Singh'},
+                {id: 17, label: 'Parth Paradkar'},
+
+        {id: 18, label: 'Harish Nandan'},
+            {id: 19, label: 'Pankhuri Saxena'},
+            {id: 20, label: 'Navaneeth Suresh'},
+                {id: 21, label: 'Soumyajit Chakraborty'},
+                {id: 22, label: 'Pankaj Kumar Agarwal'},
+
+        {id: 23, label: 'Arindam Biswas'},
+            {id: 24, label: 'Taapas Agarwal'},
+                {id: 25, label: 'Raj Gupta'},
+
+        {id: 26, label: 'Dhiraj Barnwal'},
+            {id: 27, label: 'Ritik Kumar'},
+            {id: 28, label: 'Aditya Vikram Singh'},
+                {id: 29, label: 'U. Hemanth Kumar'},
+
+        {id: 30, label: 'Parth Verma'},
+            {id: 31, label: 'Aaryan Bhagat'},
+            {id: 32, label: 'Nikhil Choudhary'},
+                {id: 33, label: 'Anjay Goel'},
+
+        {id: 34, label: 'Nitin Choudhary'},
+            {id: 35, label: 'Shivam Kumar Jha'},
+                {id: 36, label: 'Raghavendra Kaushik'}
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+        {from: 1, to: 2},
+            {from: 2, to: 3},
+        
+        {from: 4, to: 5},
+            {from: 5, to: 6},
+
+        {from: 7, to: 8},
+            {from: 8, to: 9},
+        
+        {from: 10, to: 11},
+            {from: 11, to: 12},
+        
+        {from: 13, to: 14},
+        {from: 13, to: 15},
+            {from: 14, to: 16},
+            {from: 14, to: 17},
+            {from: 15, to: 16},
+            {from: 15, to: 17},
+        
+        {from: 18, to: 19},
+        {from: 18, to: 20},
+            {from: 19, to: 21},
+            {from: 19, to: 22},
+            {from: 20, to: 21},
+            {from: 20, to: 22},
+        
+        {from: 23, to: 24},
+            {from: 24, to: 25},
+        
+        {from: 26, to: 27},
+        {from: 26, to: 28},
+            {from: 27, to: 29},
+            {from: 28, to: 29},
+            
+        {from: 30, to: 31},
+        {from: 30, to: 32},
+            {from: 31, to: 33},
+            {from: 32, to: 33},
+        
+        {from: 34, to: 35},
+        {from: 35, to: 36}
+
+    ]);
+
+    // create a network
+    var container = document.getElementById('mynetwork');
+    var data = {
+        nodes: nodes,
+        edges: edges
+    };
+    
+    var options = {
+        nodes: {
+            shape: 'box',
+            margin: 10,
+            font: {
+                size: 32
+            }
+        },
+        physics: {
+            enabled: false
+        },
+        layout: {
+            hierarchical: {
+                enabled: true,
+                levelSeparation: 500,
+                sortMethod: 'directed',
+                nodeSpacing: 100,
+                treeSpacing: 100,
+                edgeMinimization: true,
+                direction: 'LR'
+            }
+        }
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+
+
+</body>
+</html>

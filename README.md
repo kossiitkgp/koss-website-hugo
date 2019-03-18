@@ -16,6 +16,36 @@ Theme Resources
   - [Documentation](https://sourcethemes.com/academic/docs/)
   - [Source code of Documenation](https://github.com/sourcethemes/academic-www/)
 
+## Initial Setup
+
+Getting all the submodules:
+
+If you haven't cloned the repo yet:
+
+```
+git clone --recurse-submodules https://github.com/kossiitkgp/kossiitkgp.org.git
+```
+This will clone the repo and all the submodules required.
+
+
+If you have cloned the repo and do not have the submdules:
+
+```
+git submodule update --init --recursive
+```
+
+Now we install `hugo`. You can refer to [Installation (Hugo Docs)](https://gohugo.io/getting-started/installing) for details. For Ubuntu you can install using snap:
+
+```
+sudo snap install hugo --channel=extended
+```
+
+Now to get the website running on a local server that updates to all the changes automatically:
+
+```
+hugo serve --disableFastRender
+```
+
 ## How to update?
 
 To update anything at `/blog/`, go to https://github.com/kossiitkgp/blog

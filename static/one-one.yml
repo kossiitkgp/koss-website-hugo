@@ -1,0 +1,101 @@
+- name: Dibya Prakash Das
+  batch: MA'21
+  directs:
+    - name: Piyush Ranjan
+      batch: IM'21
+      directs:
+        - name: Shubham Mishra
+          batch: IE'22
+
+- name: Pranit Bauva
+  batch: MI'20
+  directs:
+    - name: Gaurav Goyal
+      batch: CS'22
+      directs:
+        - name: Aman Verma
+          batch: EX'23
+
+- name: Sangeet Kumar Mishra
+  batch: CE'20
+  directs:
+    - name: Ayush Kaushal
+      batch: CS'21
+      directs:
+        - name: Debajyoti Dasgupta
+          batch: MT'23
+
+- name: Pratik Tibrewal
+  batch: EC'20
+  directs:
+    - name: Yash Sharma
+      batch: MA'22
+      directs:
+        - name: Mukul Mehta
+          batch: CS'22
+
+- name: Apoorva Kumar
+  batch: CS'20
+  directs:
+    - name: Arnav Tiwari
+      batch: MF'22
+    - name: Anushka Shukla
+      batch: HS'22
+      directs:
+        - name: Priyanshu Kumar Singh
+          batch: HS'23
+        - name: Parth Paradkar
+          batch: EE'22
+
+- name: Harish Nandan
+  batch: ME'20
+  directs:
+    - name: Pankhuri Saxena
+      batch: HS'22
+    - name: Navaneeth Suresh
+      batch: NA'22
+      directs:
+        - name: Soumyajit Chakraborty
+          batch: IE'22
+        - name: Pankaj Kumar Agarwal
+          batch: CS'23
+
+- name: Arindam Biswas
+  batch: PH'20
+  directs:
+    - name: Taapas Agarwal
+      batch: GG'22
+      directs:
+        - name: Raj Gupta
+          batch: AG'23
+
+- name: Dhiraj Barnwal
+  batch: IM'20
+  directs:
+    - name: Ritik Kumar
+      batch: CS'21
+    - name: Aditya Vikram Singh
+      batch: PH'22
+      directs:
+        - name: U. Hemanth Kumar
+          batch: CH'23
+
+- name: Parth Verma
+  batch: MA'20
+  directs:
+    - name: Aaryan Bhagat
+      batch: CS'21
+    - name: Nikhil Choudhary
+      batch: HS'22
+      directs:
+        - name: Anjay Goel
+          batch: HS'23
+
+- name: Nitin Choudhary
+  batch: MA'20
+  directs:
+    - name: Shivam Kumar Jha
+      batch: CS'22
+      directs:
+        - name: Raghavendra Kaushik
+batch: ME'23
