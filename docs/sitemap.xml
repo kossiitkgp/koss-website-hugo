@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2019-02-16T00:00:00+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/blog/</loc>
+      <lastmod>2018-10-05T00:00:00+05:30</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/</loc>
+      <lastmod>2018-10-05T00:00:00+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/engineering/</loc>
+      <lastmod>2018-10-05T00:00:00+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
     
     <url>
@@ -61,6 +95,7 @@
     <url>
     
       <loc>/docs/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -68,6 +103,7 @@
     <url>
     
       <loc>/docs/community/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -75,6 +111,7 @@
     <url>
     
       <loc>/docs/community/governance-review-week/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -82,6 +119,7 @@
     <url>
     
       <loc>/docs/community/governance/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -89,6 +127,7 @@
     <url>
     
       <loc>/docs/community/onboarding-offboarding/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -96,6 +135,7 @@
     <url>
     
       <loc>/docs/community/one-on-one/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -103,39 +143,6 @@
     <url>
     
       <loc>/docs/events/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/blog/</loc>
-      <lastmod>2018-10-05T00:00:00+05:30</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/categories/engineering/</loc>
-      <lastmod>2018-10-05T00:00:00+05:30</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2019-02-16T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
     
