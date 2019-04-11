@@ -10,5 +10,26 @@
 	<atom:link href="/docs/events/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title></title>
+      <link>/docs/events/freshers-selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/events/freshers-selection/</guid>
+      <description>Freshers&amp;rsquo; Selection How do we recruit?  This should be carefully re-evaluated every year. People change, along with the needs of KOSS.
+ Core parameters for hiring are
+ Knowledge Will to Learn Will to Teach  The parameters are given equal weight.
+Screening Round An online form is released with few questionnaires. We carefully go through their answers and invite potential candidates for a sit-in interview with the team.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/events/python-classes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/events/python-classes/</guid>
+      <description> Python classes! </description>
+    </item>
+    
   </channel>
 </rss>

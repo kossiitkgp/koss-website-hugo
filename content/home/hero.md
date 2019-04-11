@@ -1,8 +1,9 @@
 +++
 # Hero widget.
 widget = "hero_img"
-active = true
+active = false
 date = 2019-02-16
+headless = true
 
 title = ""
 
@@ -22,4 +23,3 @@ overlay_img = "wall.png"
 
 The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
 [Read more about us!](/docs/about)
-

@@ -2,6 +2,7 @@
 widget = "custom"
 active = true
 date = 2016-04-20T00:00:00
+headless = true
 
 title = "KOSS"
 subtitle = "Kharagpur Open Source Society"
