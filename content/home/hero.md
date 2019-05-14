@@ -10,8 +10,8 @@ title = ""
 # Order that this section will appear in.
 weight = 10
 
-img = ""
-overlay_img = "wall.png"
+# img = ""
+overlay_img = "header/wall.png"
 
 # Overlay a color or image (optional).
 #   Deactivate an option by commenting out the line, prefixing it with `#`.

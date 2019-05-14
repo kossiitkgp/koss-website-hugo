@@ -10,7 +10,6 @@ day_night = true
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
 font = "default"
-google_font = "Lato"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "We are a group of volunteer students at IIT Kharagpur who promote Open Source."
