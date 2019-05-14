@@ -5,16 +5,30 @@
   background-position: center;
 }
 
-html, body, .home-section {
+html, body {
   height: 100%;
   /* margin-top: 30vh; */
 }
 
+.home-section{
+  height: calc(100% - 70px);
+}
+
 .home-section .container, .home-section .row {
-  height: 90%;
+  height: 100%;
 }
 
 .home-section .section-heading {
   max-width: 40%;
   margin: auto;
+}
+
+#navbar .fa, #navbar .fab, #navbar .fal, #navbar .far, #navbar .fas {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 50px;
 }
