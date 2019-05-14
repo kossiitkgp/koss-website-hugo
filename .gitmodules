@@ -7,6 +7,3 @@
 [submodule "themes/koss-hugo-theme"]
 	path = themes/koss-hugo-theme
 	url = https://github.com/kossiitkgp/koss-hugo-theme.git
-[submodule "themes/academic"]
-	path = themes/academic
-	url = https://github.com/gcushen/hugo-academic.git
