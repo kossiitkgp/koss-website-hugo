@@ -1,12 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kharagpur Open Source Society on Kharagpur Open Source Society</title>
+    <title>Kharagpur Open Source Society</title>
     <link>/</link>
-    <description>Recent content in Kharagpur Open Source Society on Kharagpur Open Source Society</description>
+    <description>Recent content on Kharagpur Open Source Society</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Oct 2018 00:00:00 +0530</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Using Git Bash for git in Windows</title>
@@ -1065,13 +1068,65 @@ mischief with GitHub.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>/docs/accounts/</link>
+      <link>/docs/community/accounts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/accounts/</guid>
+      <guid>/docs/community/accounts/</guid>
       <description>
 
 &lt;h1 id=&#34;accounts&#34;&gt;Accounts&lt;/h1&gt;
+
+&lt;p&gt;This document describes all the financial and accounting content related to KOSS. This particular function has to be carried out with the very high standards and utmost sincerity.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-does-koss-require-money&#34;&gt;Why does KOSS require money?&lt;/h2&gt;
+
+&lt;p&gt;We conduct various workshops and events which require multiple costs like AV Cell booking, room booking, posters, domain hosting, servers, etc. To pay for the costs, the members had donated various sums of money to sustain the society while finding some self-funding source so as to continue the society in perpetuity without much financial strain on it’s individual members.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-that-self-funding-source&#34;&gt;What is that self-funding source?&lt;/h2&gt;
+
+&lt;p&gt;Currently, we conduct various workshops in an ongoing partnership with KTJ wherein they in turn, agree to donate some money to us. The money which we currently get is sufficient to continue with our expenses.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-the-goal-of-receiving-donations&#34;&gt;What is the goal of receiving donations?&lt;/h2&gt;
+
+&lt;p&gt;To get enough money to sustain society and pay for various costs in conducting the events.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-isn-t-the-goal-of-receiving-donations&#34;&gt;What isn’t the goal of receiving donations?&lt;/h2&gt;
+
+&lt;p&gt;The money which we receive should never be used for internal parties/treats. The reason is simple: we don’t want to conduct events because we have the end goal of partying (which happens in majority places). Also, we think it’s a very healthy culture of seniors treating juniors and should continue.&lt;/p&gt;
+
+&lt;p&gt;Side note: If we expect our members to stay the entire day involved in KOSS’ events, workshops, etc then of course, we have to provide food from KOSS’ accounts. Such meals shouldn’t be extravagant, but should be good enough.&lt;/p&gt;
+
+&lt;h2 id=&#34;who-maintains-this-for-koss&#34;&gt;Who maintains this for KOSS?&lt;/h2&gt;
+
+&lt;p&gt;A book-keeper is appointed from the 4th year batch (with Dual Degree preferred for the sole reason that they can keep a check even as ex-book-keepers in their final years.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Appointment&lt;/strong&gt;
+The book-keeper is elected by the advisors batch with help from the executive heads.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Current book-keeper&lt;/strong&gt;
+For the current period (2018-2019), Pranit Bauva is the book-keeper.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Power&lt;/strong&gt;
+The book-keeper enjoys no power and merely helps in acting according to executive heads’ decisions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Arrange for donations for self-sustainability&lt;/li&gt;
+&lt;li&gt;Maintain the GitHub repository kossiitkgp/accounts diligently with high ethical standards&lt;/li&gt;
+&lt;li&gt;Reinforce the rules/guidelines concerning any accounts related stuff among the whole team&lt;/li&gt;
+&lt;li&gt;Timely (semester wise and after major event) clearance of dues&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;github-repo&#34;&gt;GitHub Repo&lt;/h1&gt;
+
+&lt;h2 id=&#34;rules&#34;&gt;Rules&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;PR has to be verified by the book-keeper as well as one executive head before being merged&lt;/li&gt;
+&lt;li&gt;PR should have a photo of the bill with the amount written&lt;/li&gt;
+&lt;li&gt;PR should contain the transaction id when transferring money from KOSS’ account to someone else for maintaining a record&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -1494,9 +1549,32 @@ Question 3: (1 min)
 
 &lt;h3 id=&#34;guidelines-for-advisors&#34;&gt;Guidelines for Advisors -&lt;/h3&gt;
 
+&lt;p&gt;Dear fellow advisors,&lt;/p&gt;
+
+&lt;p&gt;It’s very easy to be the grumpy old fellows pointing out mistakes in others’ work and it’s quite tempting since our brain mostly favors short-term rewards. The real challenge is to enable people to improve and change themselves as well as the organization. Hiring the right people and steering them in a good direction should be the aim of an advisor.&lt;/p&gt;
+
+&lt;p&gt;While the Execs are mostly involved in doing a lot of ground work, advisors can really think about the overall organization and how they can improve it (since we aren’t caught up in day to day shit).&lt;/p&gt;
+
+&lt;p&gt;(Bauva’s Theory) Enablers vs Disablers:
+Enablers are the people that enable an organization to do good while disablers are exactly the opposite. Enablers are the people who can with their energy and attitude allow more people to collaborate more productively. Enablers trust the people they recruit to do their job (this has got to do a lot with having hope and faith that we have the right strategy for recruiting since without it it’s impossible to have that confidence) and teach them. Disablers don’t trust the people they recruit and curse them for their mistakes (realize that everyone makes mistakes, and it’s more important that you learn from them). An advisor should remember that every interaction is important and after you have “enabled” someone, you have set them on a good path and vice versa.&lt;/p&gt;
+
+&lt;p&gt;Advisors should aim for being enablers in KOSS and avoid being disablers.&lt;/p&gt;
+
+&lt;p&gt;What an advisor should aim for:&lt;/p&gt;
+
 &lt;ol&gt;
-&lt;li&gt;Do not disappear.&lt;/li&gt;
+&lt;li&gt;Trust the team that you have hand-picked (the most important one)&lt;/li&gt;
+&lt;li&gt;Motivate the team&lt;/li&gt;
+&lt;li&gt;Create reliable systems and process (like &lt;code&gt;docs&lt;/code&gt; or &lt;code&gt;mistakes&lt;/code&gt; repo) that reduce systematic errors&lt;/li&gt;
+&lt;li&gt;Provide valuable experiences&lt;/li&gt;
+&lt;li&gt;Asking Execs the reason behind their actions and thorough cross-questioning&lt;/li&gt;
+&lt;li&gt;Help people learn&lt;/li&gt;
+&lt;li&gt;Set the culture&lt;/li&gt;
+&lt;li&gt;Set guidelines and goals&lt;/li&gt;
+&lt;li&gt;Appreciate and shower praises for the good work&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;It’s also important to remember how we (advisors) felt when we were in our 2nd and 3rd years. Campus life is &lt;strong&gt;really hard&lt;/strong&gt; and it takes a toll on the best of us. Remember that Execs &amp;amp; CTM have their own life with their own problems which they want to solve to achieve their own goals. There are many things obvious for us right now and we know what to focus on and what to not focus on. So the next time, if some junior comes up to you and says, “Kal test/assignment/lab hai, toh kaam nahi hoga”  don’t starting whining about how you didn’t give a fuck about it when you were young and wild (either they won’t care or they will mistake you for being reckless). “Humare bhi dusra kaam hota hai per phir bhi hum kaam karte hai” isn’t exactly the sentence that would motivate someone. Instead try to find a solution where you solve his/her issue along without hampering the work to be done.&lt;/p&gt;
 </description>
     </item>
     
@@ -1806,18 +1884,6 @@ The Red flags listed below do not mean they are bad qualities as a programmer or
 &lt;p&gt;A single round of interviews was conducted. Around 50 people showed up. We used Google Sheets to note down interview comments.&lt;/p&gt;
 
 &lt;p&gt;Facebook post - &lt;a href=&#34;https://www.facebook.com/kossiitkgp/photos/a.551030724973932/993755030701497/?type=3&amp;amp;theater=&#34; target=&#34;_blank&#34;&gt;https://www.facebook.com/kossiitkgp/photos/a.551030724973932/993755030701497/?type=3&amp;amp;theater=&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/docs/events/python-classes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/events/python-classes/</guid>
-      <description>
-
-&lt;h1 id=&#34;python-classes&#34;&gt;Python classes!&lt;/h1&gt;
 </description>
     </item>
     
