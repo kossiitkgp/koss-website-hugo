@@ -12,7 +12,7 @@ day_night = true
 font = "default"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "We are a group of volunteer students at IIT Kharagpur who promote Open Source."
+description = "We are a group of volunteer, like-minded students at IIT Kharagpur who promote Open Source."
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""

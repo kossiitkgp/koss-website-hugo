@@ -19,8 +19,6 @@
       <guid>/blog/git-bash-in-windows/</guid>
       <description>
 
-&lt;h1 id=&#34;using-git-bash-for-git-in-windows&#34;&gt;Using Git Bash for git in Windows&lt;/h1&gt;
-
 &lt;p&gt;This blog post helps in installing git bash, for using git in windows. Git for
 Windows provides a BASH emulation used to run Git from the command line. *NIX
 users should feel right at home, as the BASH emulation behaves just like the
@@ -95,8 +93,6 @@ start learning git.&lt;/p&gt;
       
       <guid>/blog/installing-python-in-windows/</guid>
       <description>
-
-&lt;h1 id=&#34;installing-python-in-windows&#34;&gt;Installing Python in Windows&lt;/h1&gt;
 
 &lt;p&gt;This article deals with installing Python on Windows. Even though Python can be
 installed in Windows, it is recommended to use Linux, to use Python and develop
@@ -178,8 +174,6 @@ although some benchmarks measure the new language as being much faster.&lt;/p&gt
       
       <guid>/blog/git-cheatsheet/</guid>
       <description>
-
-&lt;h1 id=&#34;git-cheatsheet&#34;&gt;Git Cheatsheet&lt;/h1&gt;
 
 &lt;h2 id=&#34;what-is-git&#34;&gt;What is Git?&lt;/h2&gt;
 
@@ -412,11 +406,7 @@ apply stash@{n}&lt;/code&gt; where n is the stash number.&lt;/li&gt;
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0530</pubDate>
       
       <guid>/blog/virtual-box-and-vagrant/</guid>
-      <description>
-
-&lt;h1 id=&#34;learning-command-line-basics-and-virtual-box&#34;&gt;Learning command line basics and Virtual box&lt;/h1&gt;
-
-&lt;p&gt;Hello people!&lt;/p&gt;
+      <description>&lt;p&gt;Hello people!&lt;/p&gt;
 
 &lt;p&gt;So I was looking up for a course that would teach me the basics of linux command
 line and I got across this one. Though I already know the basics of command line
@@ -496,11 +486,7 @@ command line.&lt;/p&gt;
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0530</pubDate>
       
       <guid>/blog/informal-introduction-to-kwoc/</guid>
-      <description>
-
-&lt;h1 id=&#34;an-informal-introduction-to-kwoc-http-kwoc-kossiitkgp-org&#34;&gt;An informal introduction to &lt;a href=&#34;http://kwoc.kossiitkgp.org/&#34; target=&#34;_blank&#34;&gt;KWoC&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Great People of tomorrow, every perfume starts with one ingredient but it is
+      <description>&lt;p&gt;&lt;strong&gt;Great People of tomorrow, every perfume starts with one ingredient but it is
 the last one that makes it come to life.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Hi! and Welcome! To all esteemed student who are trying to pursue their dreams
@@ -786,8 +772,6 @@ bulletproof”&lt;/strong&gt;&lt;/p&gt;
       <guid>/blog/writing-kickass-readmes/</guid>
       <description>
 
-&lt;h1 id=&#34;writing-kickass-readmes&#34;&gt;Writing Kickass READMEs&lt;/h1&gt;
-
 &lt;p&gt;Writing documentation for code is &lt;strong&gt;extremely&lt;/strong&gt; important. Alas! I realized this
 late. Nevertheless, you should not make this mistake again.&lt;/p&gt;
 
@@ -977,11 +961,7 @@ appeared in Pranit Bauva’s &lt;a href=&#34;http://www.bauva.com/&#34; target=&
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0530</pubDate>
       
       <guid>/blog/breaking-github-down/</guid>
-      <description>
-
-&lt;h1 id=&#34;breaking-github-down&#34;&gt;Breaking GitHub Down&lt;/h1&gt;
-
-&lt;p&gt;During my mid semester exams, one night I was getting bored so I decided to
+      <description>&lt;p&gt;During my mid semester exams, one night I was getting bored so I decided to
 check how to break the most used code hosting website
 &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;. I wrote a
 script&lt;a href=&#34;https://github.com/DefCon-007/Commiter-source&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt; to add infinite
