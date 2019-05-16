@@ -10,8 +10,22 @@ html, body {
   /* margin-top: 30vh; */
 }
 
+body {
+  margin-top: 70px !important;
+}
+
 .home-section{
   height: calc(100% - 70px);
+}
+
+@media(max-width: 768px) {
+  .blur-illustration {
+    padding-top: 100%;
+  }
+}
+
+.home-section {
+	padding: 60px 0;
 }
 
 .home-section .container, .home-section .row {
@@ -19,7 +33,7 @@ html, body {
 }
 
 .home-section .section-heading {
-  max-width: 40%;
+  padding: 0rem 2rem;
   margin: auto;
 }
 
